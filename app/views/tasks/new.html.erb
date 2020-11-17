@@ -1,0 +1,11 @@
+<%= form_for(@restaurant) do |f| %>
+  <%= f.label :title %>
+  <%= f.sting_field :title %>
+  <%= f.label :details %>
+  <%= f.text_field :details %>
+  <%= f.label :completed %>
+  <%= f.boolean_field :completed %>
+  <%= f.submit %>
+<% end %>
+
+
